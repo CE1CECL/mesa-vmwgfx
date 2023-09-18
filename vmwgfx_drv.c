@@ -152,7 +152,7 @@ static struct drm_ioctl_desc vmw_ioctls[] = {
 };
 
 static struct pci_device_id vmw_pci_id_list[] = {
-	{0x15ad, 0x0405, PCI_ANY_ID, PCI_ANY_ID, 0, 0, VMWGFX_CHIP_SVGAII},
+	{0x1960, 0x0405, PCI_ANY_ID, PCI_ANY_ID, 0, 0, VMWGFX_CHIP_SVGAII},
 	{0, 0, 0}
 };
 
